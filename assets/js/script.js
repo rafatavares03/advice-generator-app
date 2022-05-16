@@ -14,7 +14,6 @@ async function GetAdvice() {
       number: 'ERROR!'
     })
   }
-  console.log(results, json);
 }
 
 function WriteAdvice(obj) {
