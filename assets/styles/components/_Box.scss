@@ -1,0 +1,29 @@
+@use '../abstract' as *;
+
+.box {
+  @include flex-box($direction: column);
+  background-color: $box-background;
+  border-radius: $box-radius;
+  margin: $box-margin;
+  max-width: $box-max-width;
+  padding: $box-padding;
+  position: $box-position;
+  text-align: $text-center;
+
+  .button {
+    @include flex-box;
+    background-color: $button-color;
+    border-radius: $button-radius;
+    bottom: $button-bottom;
+    margin-left: $button-margin;
+    height: $button-size;
+    left: $button-left;
+    position: $button-position;
+    transition: $button-transition;
+    width: $button-size;
+
+    &:hover {
+      box-shadow: $button-shadow;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@use '../abstract' as *;
+
+.advice,
+.advice-id {
+  display: $texts-display;
+  max-width: $text-width;
+}
+
+.advice {
+  color: $quote-color;
+  font-family: $quote-font;
+  font-size: $quote-size;
+  font-weight: $quote-weight;
+  line-height: $quote-line-height;
+}
+
+.advice-id {
+  color: $advice-id-color;
+  font-family: $advice-id-font;
+  font-size: $advice-id-size;
+  font-weight: $advice-id-weight;
+  margin: $null;
+  letter-spacing: $advice-id-spacing;
+  text-transform: $text-uppercase;
+}

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Manrope:wght@500&display=swap");
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1f2632;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #323a49;
+  border-radius: 10px;
+  margin: 0px 20px;
+  max-width: 500px;
+  padding: 40px 25px 50px 25px;
+  position: relative;
+  text-align: center;
+}
+.box .button {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #52ffa8;
+  border-radius: 50%;
+  bottom: -30px;
+  margin-left: -30px;
+  height: 60px;
+  left: 50%;
+  position: absolute;
+  transition: 1s;
+  width: 60px;
+}
+.box .button:hover {
+  box-shadow: 0px 0px 20px 0px #52ffa8;
+}
+
+.advice,
+.advice-id {
+  display: inline-block;
+  max-width: 450px;
+}
+
+.advice {
+  color: #cee3e9;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+.advice-id {
+  color: #52ffa8;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,45 @@ $light-cyan: #cee3e9;
 
 // Typography
 
-$font: 'Manrope', sans-serif;
+$primary-font: 'Catamaran', sans-serif;
+$secundary-font: 'Manrope', sans-serif;
+
+$quote-color: $light-cyan;
+$quote-font: $primary-font;
+$quote-line-height: 2rem;
 $quote-size: 1.75rem;
-$font-weight: 800;
+$quote-weight: 600;
+
+$text-center: center;
+$text-uppercase: uppercase;
+
+$null: 0;
+
+$advice-id-color: $neon-green;
+$advice-id-font: $secundary-font;
+$advice-id-size: 0.65rem;
+$advice-id-spacing: 3px;
+$advice-id-weight: 500;
+
+$body-background: $dark-blue;
+$body-height: 100vh;
+
+$box-background: $dark-grayish-blue;
+$box-margin: 0px 20px;
+$box-max-width: 500px;
+$box-radius: 10px;
+$box-padding: 40px 25px 50px 25px;
+$box-position: relative;
+
+$button-bottom: -30px;
+$button-color: $neon-green;
+$button-left: 50%;
+$button-margin: -30px;
+$button-position: absolute;
+$button-radius: 50%;
+$button-size: 60px;
+$button-shadow: 0px 0px 20px 0px $neon-green;
+$button-transition: 1s;
+
+$texts-display: inline-block;
+$text-width: 450px;

@@ -1,0 +1,14 @@
+@use '../abstract' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&family=Manrope:wght@500&display=swap');
+
+
+
+
+body {
+  @include flex-box;
+  background-color: $body-background;
+  margin: $null;
+  min-height: $body-height;
+  padding: $null;
+}
